@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 module.exports = {
-  base: "/results-rest-api-docs/",
+  base: "/sgpa-rest-api-docs/",
   lang: "en-US",
   title: "Documentation",
   description: "Documentation for SGPA REST API",
