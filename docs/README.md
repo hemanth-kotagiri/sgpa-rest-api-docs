@@ -10,10 +10,12 @@ batch 2018. Soon, I would leverage this to other regulations and supplementary e
 
 ## Why I built this RestAPI?
 
-I had to develop a mobile application to calculate the SGPA for each branch at
-college (manually) ,so I verified if there was a public API access from our
-[University](https://jntuh.ac.in) if I can fetch the details of students and
-their respective results, but, to my suprise - there is none.
+I had to calculate the SGPA for each branch at college (manually), so I decided
+to develop a [Cross Platform
+App](https://github.com/hemanth-kotagiri/sgpa-calculator) and I verified if
+there was a public API access from our [University](https://jntuh.ac.in) if I
+can fetch the details of students and their respective results, but, to my
+suprise - there is none.
 
 So, I just created my own.
 

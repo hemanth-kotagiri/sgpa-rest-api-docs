@@ -13,6 +13,10 @@ module.exports = {
         text: "Introduction",
         link: "/",
       },
+      {
+        text: "API Reference",
+        link: "/endpoints/",
+      },
     ],
     repo: "https://github.com/hemanth-kotagiri/sgpa-rest-api",
 
@@ -21,6 +25,7 @@ module.exports = {
     docsDir: "docs",
     sidebar: {
       "/": getSideBar("/", "Introduction"),
+      "/endpoints/": getSideBar("/endpoints/", "API Reference"),
     },
   },
 };
