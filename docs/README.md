@@ -3,16 +3,16 @@
 ## Introduction
 
 This has been specifically built to suppliment the mobile application that I am
-developing. Feel free to use this irrespective of the mobile-app, with which
-you can integrate into your own applications/projects to get the data. As of
-now, this RestAPI provides the regular resluts of all R18 regulation students of the
-batch 2018. Soon, I would leverage this to other regulations and supplementary exams as well.
+developed. Feel free to use this irrespective of the mobile-app, with which you
+can integrate into your own applications/projects to get the data. This RestAPI
+provides the results for all regulations, and of all types ( regular and
+supplementary ).
 
 ## Why I built this RestAPI?
 
 One day, I had to calculate the SGPA for each subject at college (manually), so
 I got an idea to develop a [Cross Platform App](https://github.com/hemanth-kotagiri/sgpa-calculator).
-I verified if there was a public API access from our [University](https://jntuh.ac.in) so that I I
+I verified if there was a public API access from our [University](https://jntuh.ac.in) so that I
 can fetch the details of students and their respective results, but, to my
 suprise - there is none.
 
