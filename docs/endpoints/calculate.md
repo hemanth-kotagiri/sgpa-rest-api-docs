@@ -34,7 +34,7 @@ https://results-restapi.herokuapp.com/calculate/hallticket-number/date-of-birth/
 Copy and paste this url in a new tab:
 
 ```
-  https://results-restapi.herokuapp.com/calulate/185U1A0565/2001-04-03/1,1
+  https://results-restapi.herokuapp.com/calculate/185U1A0565/2001-04-03/1,1
 ```
 
 You would obtain a response as such:

@@ -2,39 +2,68 @@
 
 **Note that the response is in the form of JSON only.**
 
-### Endpoints
-
-```
-- /          - This is the home page.
-- /result    - A query parameter specific endpoint.
-- /calculate - Fetch the SGPA along with other details.
-```
-
 ### API Reference
-
-#### Get results and student details
-
-```http
-  GET /hallticket/dob/year
-```
-
-#### Query parameter specific endpoint.
-
-```http
-  GET /result?hallticket&dob&year
-```
-
-#### Endpoint to calculate the sgpa.
-
-```http
-  GET /calculate/hallticket/dob/year
-```
 
 | Parameter    | Type     | Description                                        |
 | :----------- | :------- | :------------------------------------------------- |
 | `Hallticket` | `string` | **Required**: Your Hallticket Number               |
 | `dob`        | `string` | **Required**: Your Date of Birth (YYYY-MM-DD)      |
 | `Year`       | `string` | **Required**: Desired Year and Semester (year,sem) |
+
+#### Get results and student details
+
+`GET /hallticket/dob/year`
+
+#### Query parameter specific endpoint.
+
+` GET /result?hallticket&dob&year`
+
+#### Endpoint to calculate the sgpa.
+
+`GET /calculate/hallticket/dob/year`
+
+---
+
+#### Fetch all results links (Supplementary and Regular).
+
+`GET /new/all`
+
+#### Fetch all regular results links.
+
+`GET /new/all/regular`
+
+#### Fetch all regular supplementary links.
+
+`GET /new/all/supply`
+
+#### Returns all results links in unordered fashion
+
+`GET /new/`
+
+#### Returns all the latest released notifications
+
+`GET /notifications`
+
+---
+
+| Parameter    | Type     | Description                                        |
+| :----------- | :------- | :------------------------------------------------- |
+| `Hallticket` | `string` | **Required**: Your Hallticket Number               |
+| `dob`        | `string` | **Required**: Your Date of Birth (YYYY-MM-DD)      |
+| `Year`       | `string` | **Required**: Desired Year and Semester (year,sem) |
+| `degree`     | `string` | **Required**: usually : `btech`                    |
+| `examCode`   | `string` | **Required**: unique exam code                     |
+| `eType`      | `string` | **Required**: unique eType                         |
+| `type`       | `string` | **Required**: unique type ( eg: intgrade )         |
+| `result`     | `string` | **Required**: parameter for old results links      |
+
+#### A Query parameter endpoint to get result of an exam given hallticket, date of birth, degree, examCode, eType, type and result.
+
+`GET /api`
+
+#### A Query parameter endpoint to get result of an exam given hallticket, date of birth, degree, examCode, eType, type and result with sgpa.
+
+`GET /api/calculate`
 
 Please navigate through the sidebar for each individual endpoint description
 and usage

@@ -23,7 +23,7 @@ https://results-restapi.herokuapp.com
 2. As the above parameters have been mentioned, form the endpoint as such:
 
    ```
-   https://results-restapi.herokuapp.com/hallticket-number/date-of-birth/year
+    https://results-restapi.herokuapp.com/result?hallticket&dob&year
    ```
 
 3. Substitute your identification values in the above parameters and the
@@ -36,7 +36,7 @@ You could use Postman or any other service as you wish to test the RestAPI.
 Copy and paste this url in a new tab:
 
 ```
-  https://results-restapi.herokuapp.com/185U1A0565/2001-04-03/1,1
+  https://results-restapi.herokuapp.com/result?hallticket=185U1A0565&dob=2001-04-03&year=1,1
 ```
 
 and it shall trigger the endpoint with the below response. Now, all you need to

@@ -10,10 +10,9 @@ batch 2018. Soon, I would leverage this to other regulations and supplementary e
 
 ## Why I built this RestAPI?
 
-I had to calculate the SGPA for each branch at college (manually), so I decided
-to develop a [Cross Platform
-App](https://github.com/hemanth-kotagiri/sgpa-calculator) and I verified if
-there was a public API access from our [University](https://jntuh.ac.in) if I
+One day, I had to calculate the SGPA for each subject at college (manually), so
+I got an idea to develop a [Cross Platform App](https://github.com/hemanth-kotagiri/sgpa-calculator).
+I verified if there was a public API access from our [University](https://jntuh.ac.in) so that I I
 can fetch the details of students and their respective results, but, to my
 suprise - there is none.
 
@@ -33,6 +32,8 @@ link the PRs for the same.
 
 Made with ❤️ by Hemanth.
 
----
+> I started this for you, only for you. Now, it serves for a greater purpose -
+> for so many students ahead. You shall be remembered forever, in the
+> reminiscence of this project.
 
-> For Precious, With Patience.
+> **_For Precious, with Patience._**
