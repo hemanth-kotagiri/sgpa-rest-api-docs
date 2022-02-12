@@ -1,5 +1,7 @@
 # Calcualte-Endpoint
 
+Note that this endpoint only returns the results of Regular exams of R18 students.
+
 | Parameter    | Type     | Description                                        |
 | :----------- | :------- | :------------------------------------------------- |
 | `Hallticket` | `string` | **Required**: Your Hallticket Number               |

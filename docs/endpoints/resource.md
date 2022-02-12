@@ -1,12 +1,12 @@
 # Parameter as Resource Endpoint
 
+Note that this endpoint only returns the results of Regular exams of R18 students.
+
 | Parameter    | Type     | Description                                        |
 | :----------- | :------- | :------------------------------------------------- |
 | `Hallticket` | `string` | **Required**: Your Hallticket Number               |
 | `dob`        | `string` | **Required**: Your Date of Birth (YYYY-MM-DD)      |
 | `Year`       | `string` | **Required**: Desired Year and Semester (year,sem) |
-
-Endpoint to fetch the results and student details
 
 ```http
   GET /calculate/hallticket/dob/year
