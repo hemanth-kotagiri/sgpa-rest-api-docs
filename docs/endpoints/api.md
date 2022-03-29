@@ -4,7 +4,6 @@
 | :----------- | :------- | :------------------------------------------------- |
 | `Hallticket` | `string` | **Required**: Your Hallticket Number               |
 | `dob`        | `string` | **Required**: Your Date of Birth (YYYY-MM-DD)      |
-| `Year`       | `string` | **Required**: Desired Year and Semester (year,sem) |
 | `degree`     | `string` | **Required**: usually : `btech`                    |
 | `examCode`   | `string` | **Required**: unique exam code                     |
 | `eType`      | `string` | **Required**: unique eType                         |
@@ -14,7 +13,7 @@
 A Query parameter endpoint to get result of an exam given hallticket, date of birth, degree, examCode, eType, type and result.
 
 ```http
-  GET /api?hallticket&dob&year&degree&examCode&eType&type&result
+  GET /api?hallticket&dob&degree&examCode&eType&type&result
 ```
 
 ### Usage
@@ -28,7 +27,7 @@ https://results-restapi.herokuapp.com
 2. As the above parameters have been mentioned, form the endpoint as such:
 
    ```
-    https://results-restapi.herokuapp.com/api?hallticket&dob&year&degree&examCode&eType&type&result
+    https://results-restapi.herokuapp.com/api?hallticket&dob&degree&examCode&eType&type&result
    ```
 
 3. Substitute your identification values in the above parameters and the
