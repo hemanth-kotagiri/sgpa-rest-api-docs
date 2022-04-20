@@ -10,6 +10,8 @@
 | `dob`        | `string` | **Required**: Your Date of Birth (YYYY-MM-DD)      |
 | `Year`       | `string` | **Required**: Desired Year and Semester (year,sem) |
 
+Below are R-18 (2018) - Batch only endpoints
+
 #### Get results and student details
 
 `GET /hallticket/dob/year`
@@ -32,7 +34,7 @@
 
 `GET /new/all/regular`
 
-#### Fetch all regular supplementary links.
+#### Fetch all supplementary links.
 
 `GET /new/all/supply`
 
