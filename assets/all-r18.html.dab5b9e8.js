@@ -1,0 +1,1 @@
+const e={key:"v-1daa7f94",path:"/endpoints/all-r18.html",title:"All R18 Results Endpoint",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"Usage",slug:"usage",children:[]},{level:3,title:"Example",slug:"example",children:[]}],git:{updatedTime:null,contributors:[]},filePathRelative:"endpoints/all-r18.md"};export{e as data};
